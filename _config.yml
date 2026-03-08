@@ -4,8 +4,9 @@ lang: en
 timezone: Asia/Singapore
 
 title: Changmin Security Blog
-tagline: Red Team / Penetration Testing / Cybersecurity
-description: Cybersecurity writeups and pentesting notes
+tagline: "Red Team / Penetration Testing / Cybersecurity"
+description: "Cybersecurity writeups and pentesting notes"
+
 url: "https://changmin-sung.github.io"
 baseurl: ""
 
