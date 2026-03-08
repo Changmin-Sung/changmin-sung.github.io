@@ -9,9 +9,122 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Singapore
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/# --------------------------
+
+# Basic Site Settings
+
+# --------------------------
+
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Singapore
+
+title: Changmin Security Blog
+tagline: Red Team / Penetration Testing / Cybersecurity
+description: Cybersecurity writeups and pentesting notes
+
+url: "https://changmin-sung.github.io"
+baseurl: ""
+
+github:
+username: Changmin-Sung
+
+linkedin:
+username: changmin-sung-742474230
+
+# --------------------------
+
+# Author / Social Info
+
+# --------------------------
+
+social:
+name: Changmin Sung
+email: [cmsung100@gmail.com](mailto:cmsung100@gmail.com)
+links:
+- https://github.com/Changmin-Sung
+- https://www.linkedin.com/in/changmin-sung-742474230/
+
+# --------------------------
+
+# Profile Image
+
+# --------------------------
+
+avatar: /assets/img/profile.png
+
+# --------------------------
+
+# Theme Appearance
+
+# --------------------------
+
+theme_mode: dark
+
+# --------------------------
+
+# Table of Contents
+
+# --------------------------
+
+toc: true
+
+# --------------------------
+
+# Pagination
+
+# --------------------------
+
+paginate: 10
+
+# --------------------------
+
+# Collections
+
+# --------------------------
+
+collections:
+tabs:
+output: true
+sort_by: order
+
+# --------------------------
+
+# Default Post Settings
+
+# --------------------------
+
+defaults:
+
+* scope:
+  path: ""
+  type: posts
+  values:
+  layout: post
+  comments: true
+  toc: true
+  permalink: /posts/:title/
+
+# --------------------------
+
+# Syntax Highlighting
+
+# --------------------------
+
+kramdown:
+syntax_highlighter: rouge
+
+# --------------------------
+
+# Sass
+
+# --------------------------
+
+sass:
+style: compressed
+blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Changmin Security Blog
@@ -21,14 +134,13 @@ url: "https://changmin-sung.github.io"
 github:
   username: Changmin-Sung
 
-linkedin: https://www.linkedin.com/in/changmin-sung-742474230/
-  username: twitter_username # change to your Twitter username
-
+linkedin:
+  username: changmin-sung-742474230
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Changmin Sung
+  email: cmsung100@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
