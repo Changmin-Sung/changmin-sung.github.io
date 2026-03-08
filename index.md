@@ -3,11 +3,16 @@ layout: home
 title: Home
 ---
 
-# Welcome
+# Changmin Sung
 
-Hi, I'm Changmin.
+Computer Science student at NUS.
 
-Computer Science student at NUS interested in cybersecurity and penetration testing.
+Interested in:
+
+- Web Security
+- Penetration Testing
+- Red Teaming
+- Active Directory Attacks
 
 This blog contains:
 
